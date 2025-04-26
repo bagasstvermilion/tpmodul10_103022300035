@@ -7,7 +7,6 @@ namespace tpmodul10_103022300035.Controllers
     [Route("api/[controller]")]
     public class MahasiswaController : ControllerBase
     {
-        // ➡️ List static disini
         private static List<Mahasiswa> mahasiswaList = new List<Mahasiswa>
         {
             new Mahasiswa { Nama = "Bagas Pratama", NIM = "103022300035" },
